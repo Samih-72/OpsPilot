@@ -1,0 +1,30 @@
+
+.env
+.env.*
+!.env.example
+
+.venv/
+.venv312/
+venv/
+__pycache__/
+*.py[cod]
+
+.streamlit/secrets.toml
+
+.DS_Store
+
+# Local databases and generated vector store
+chroma_db/
+
+# Local order data
+orders.json
+
+# Customer/business data - keep private for now
+data/*.csv
+
+# Local documents
+documents/
+
+# Python cache
+*.pyc
+__pycache__/
